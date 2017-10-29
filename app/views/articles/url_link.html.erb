@@ -1,4 +1,6 @@
-<%= link_to article_path(@article), @article %>
+<%= link_to "#{request.original_url}/#{@article.id}", article_path(@article) %>
+
+
 
 
 
